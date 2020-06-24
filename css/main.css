@@ -109,17 +109,18 @@ body {
     height: 100%;
 }
 
-.wrapper-one {
+.wrapper {
     /* set the display to flex and use the justify-content & align-items properties to center all child elements on the page */
     display: flex;
-    justify-content: center;
+    flex-flow: column nowrap;
+    justify-content: space-between;
     align-items: center;
     margin: 0;
     height: 100%;
     width: 100%;
 }
 
-#content-one {
+#content {
     /* set the display to flex and use the justify-content & align-items properties to center the text within the div*/
     display: flex;
     justify-content: center;
@@ -133,36 +134,9 @@ body {
     line-height: 1.5em;
     border-radius: 10px;
     padding: 0px 30px;
-    width: 460px;
-    height: 460px;
-}
-
-.wrapper-two {
-    /* set the display to flex and use the justify-content & align-items properties to center all child elements on the page */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    height: 100%;
-    width: 100%;
-}
-
-#content-two {
-    /* set the display to flex and use the justify-content & align-items properties to center the text within the div*/
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /*background: #222;
-    background:rgba(0,0,0,0.7);*/
-    color: #fff;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 300;
-    font-size: 1.25em;
-    line-height: 1.5em;
-    border-radius: 10px;
-    padding: 0px 30px;
-    width: 460px;
-    height: 460px;
+    width: 500px;
+    height: 500px;
+    padding: 300px 600px;
 }
 
 #content p span {
